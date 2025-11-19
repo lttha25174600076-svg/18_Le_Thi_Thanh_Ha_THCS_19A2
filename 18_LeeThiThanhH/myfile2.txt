@@ -1,0 +1,38 @@
+#bai1
+n = int(input("Nh?p s? n:"))
+sqrt_n = n** 0.5
+if sqrt_n == int(sqrt_n) :
+    print("n là s? chính phuong")
+else :
+    print("n không là s? chính phuong")
+#bai2
+a = int(input("Nh?p s? a:"))
+b = int(input("Nh?p s? b:"))
+def gcd(a, b) :
+    while b :
+        a, b = b, a%b
+    return a
+print( "U?c chung l?n nh?t c?a {a} và {b}")
+#bai3
+tu = int(input("Nh?p t? s? :"))
+mau = int(input("Nh?p m?u s?:"))
+def gcd (a, b) :
+    while b != 0:
+        a, b = b, a%b
+    return a 
+ucln = gcd(tu,mau)
+tu_toi_gian = tu // ucln
+mau_toi_gian = mau // ucln
+print("Phân s? t?i gi?n")
+#bai5
+#S2
+n = int(input("Nh?p s? n:"))
+s2 = sum (i*i for i in range (1,n,2))
+print(s2)
+#S3
+n = int(input("Nh?p s? n:"))
+s3 = 0
+for i in range (1, n+1) :
+    s3 += (-1)**(i+1)/i
+print(s3)
+#S4
