@@ -1,0 +1,1 @@
+kiem_tra_so_duong = lambda n :n >0

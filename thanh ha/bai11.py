@@ -1,0 +1,1 @@
+tich_ba_so= lambda a,b,c:a*b*c

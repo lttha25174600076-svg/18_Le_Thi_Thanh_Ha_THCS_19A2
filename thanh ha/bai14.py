@@ -1,0 +1,1 @@
+tinh_tong_hai_so = lambda a, b: a+b
